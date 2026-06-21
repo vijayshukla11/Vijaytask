@@ -2,24 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import {
-  TrendingUp,
-  TrendingDown,
-  CheckCircle2,
-  Clock,
-  AlertTriangle,
-  Briefcase,
-  BookOpen,
-  Rocket,
-  LineChart,
-  Plus,
-  Sparkles,
-  Zap,
-  Target,
-  Calendar,
-  ChevronRight,
-  Activity,
-} from 'lucide-react'
+import { TrendingUp, TrendingDown, CircleCheck as CheckCircle2, Clock, TriangleAlert as AlertTriangle, Briefcase, BookOpen, Rocket, ChartLine as LineChart, Plus, Sparkles, Zap, Target, Calendar, ChevronRight, Activity } from 'lucide-react'
 import { createClient } from '@/utils/supabase/client'
 import { Task, Brand, LearningTopic, Project, Trade } from '@/types/database'
 import { cn } from '@/utils/cn'

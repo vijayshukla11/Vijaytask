@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { createClient } from '@/utils/supabase/client'
 import { motion } from 'framer-motion'
-import { Eye, EyeOff, Loader2, Sparkles, ArrowLeft } from 'lucide-react'
+import { Eye, EyeOff, Loader as Loader2, Sparkles, ArrowLeft } from 'lucide-react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 

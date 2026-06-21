@@ -2,22 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import {
-  LayoutGrid,
-  List,
-  Calendar,
-  Clock,
-  CheckCircle2,
-  Circle,
-  AlertTriangle,
-  Filter,
-  Search,
-  Plus,
-  ChevronDown,
-  GripVertical,
-  Trash2,
-  Edit2,
-} from 'lucide-react'
+import { LayoutGrid, List, Calendar, Clock, CircleCheck as CheckCircle2, Circle, TriangleAlert as AlertTriangle, Filter, Search, Plus, ChevronDown, GripVertical, Trash2, CreditCard as Edit2 } from 'lucide-react'
 import { createClient } from '@/utils/supabase/client'
 import { Task, Brand } from '@/types/database'
 import { cn } from '@/utils/cn'
