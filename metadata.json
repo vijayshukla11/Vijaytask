@@ -1,0 +1,6 @@
+{
+  "name": "VijayOS",
+  "description": "AI Task Management & Life Operating System for Vijay Shukla powered by Live Google Sheets",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
